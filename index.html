@@ -173,8 +173,8 @@
             </div>
 
             <div class="gallery">
-                <div class="glass-card"><img src="https://i.top4top.io/p_36894f3n71.jpg"><div style="padding:20px; text-align:center; font-weight: 700;">ضحكتك حلوه اوي وتحفه اوي</div></div>
-                <div class="glass-card"><img src="https://j.top4top.io/p_3689uloiy1.jpg"><div style="padding:20px; text-align:center; font-weight: 700;">انتي كل حياتي</div></div>
+                <div class="glass-card"><img src="https://i.top4top.io/p_36894f3n71.jpg"><div style="padding:20px; text-align:center; font-weight: 700;">انتي كل حياتي</div></div>
+                <div class="glass-card"><img src="https://j.top4top.io/p_3689uloiy1.jpg"><div style="padding:20px; text-align:center; font-weight: 700;">ضحكتك حلوه اوي وتحفه اوي</div></div>
                 <div class="glass-card"><img src="https://l.top4top.io/p_36897ichr1.jpg"><div style="padding:20px; text-align:center; font-weight: 700;">واماني وراحتي وكل حاجة</div></div>
                 <div class="glass-card"><img src="https://a.top4top.io/p_3689cabf11.jpg"><div style="padding:20px; text-align:center; font-weight: 700;">اكتر واحده بحبها</div></div>
                 <div class="glass-card"><img src="https://e.top4top.io/p_3689thziu1.jpg"><div style="padding:20px; text-align:center; font-weight: 700;">بحبك ياروح قلب احمد ❤️</div></div>
@@ -242,7 +242,9 @@
         }
 
         function startCounter() {
-            const start = new Date("2024-04-12T00:00:00");
+            // عشان يظهر (1 سنة، 10 شهور، 20 يوم) في تاريخ 1 مارس 2026
+            // تاريخ البداية لازم يكون 9 أبريل 2024
+            const start = new Date("2024-04-09T00:00:00");
             
             setInterval(() => {
                 const now = new Date();
